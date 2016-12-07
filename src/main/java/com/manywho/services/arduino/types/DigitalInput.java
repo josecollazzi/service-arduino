@@ -2,6 +2,7 @@ package com.manywho.services.arduino.types;
 
 import com.manywho.sdk.api.ContentType;
 import com.manywho.sdk.services.types.Type;
+
 @Type.Element(name = DigitalInput.NAME, summary = "Digital Input")
 public class DigitalInput implements Type {
     public final static String NAME = "Digital Input";
