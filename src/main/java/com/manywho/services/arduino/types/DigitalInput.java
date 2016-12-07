@@ -11,13 +11,13 @@ public class DigitalInput implements Type {
     private String id;
 
     @Type.Property(name = "Input Value", contentType = ContentType.String)
-    private Boolean inputValue;
+    private String inputValue;
 
     public String getId() {
         return id;
     }
 
-    public Boolean getInputValue() {
+    public String getInputValue() {
         return inputValue;
     }
 }
